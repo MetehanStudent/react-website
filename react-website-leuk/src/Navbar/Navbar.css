@@ -1,0 +1,32 @@
+.Nav-bar {
+    background-color: #444; /* Donkergrijs voor contrast */
+    padding: 10px 20px; /* Padding voor ruimte rondom de links */
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+  }
+  
+  .Nav-bar ul {
+    list-style-type: none;
+    padding: 1;
+    margin: 0;
+    display: flex;
+    justify-content: flex-start; /* Zorg ervoor dat de links aan de linkerkant staan */
+  }
+  
+  .Nav-bar li {
+    margin-right: 20px; /* Ruimte tussen de links */
+  }
+  
+  .Nav-bar a {
+    text-decoration: none;
+    color: white; /* Maak de tekst wit voor betere leesbaarheid */
+    font-weight: bold;
+    transition: color 0.3s; /* Voeg een overgangseffect toe voor hover */
+  }
+  
+  .Nav-bar a:hover {
+    color: #ddd; /* Lichter bij hover */
+  }
+  
