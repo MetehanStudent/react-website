@@ -17,7 +17,6 @@ function Login() {
     <div>
       <Navbar />
       <form onSubmit={handleSubmit}>
-        <Link to="/"></Link>
         <h1>Welkom</h1>
         <br />
         <input 
@@ -47,6 +46,10 @@ function Login() {
           Login
         </button>
       </form>
+      <br />
+      <p>
+        Geen account? <Link to="/register">Registreren</Link>
+      </p>
     </div>
   );
 }
